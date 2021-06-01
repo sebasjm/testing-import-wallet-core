@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import { setupI18n } from "@gnu-taler/taler-wallet-core";
+
+setupI18n("en-US");
 
 function App() {
   return (
